@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Doctoral student at <a href='#'>Decision and Control Sytems, KTH</a>.
 
 profile:
   align: right
