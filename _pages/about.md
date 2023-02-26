@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Doctoral student at <a href='https://www.kth.se/is/dcs/division-of-decision-and-control-systems-1.788078'>Decision and Control Sytems, KTH</a>.
 
