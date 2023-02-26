@@ -9,17 +9,18 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Malvinas väg 10, floor 6</p>
+    <p>EECS / Division of Decision and Control Systems</p>
+    <p>KTH Royal Institute of Technology</p>
+    <p>100 44 Stockholm, Sweden<p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am Braghadeesh Lakshminarayanan, a doctoral student at the division of Decision and Control Systems (DCS), KTH Royal Institute of Technology, Stockholm, Sweden. I began my doctoral studies on August 2021 under the supervision of [Prof. Cristian Rojas](https://people.kth.se/~crro/). 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I graduated with a masters degree (M. Tech) in Communication and Networks (CN) on July 2020, from the Indian Institute of Science(IISc), Bangalore, India, where I was advised by [Prof. Aditya Gopalan](https://ece.iisc.ac.in/~aditya/index.html). Prior to joining IISc, I worked as a VLSI Engineer at Wipro Technologies, Bangalore, India from 2016-2017. I obtained my bachelors degree (B. Tech) in Electronics and Communication Engineering in the year 2016, from the National Institute of Technology, Trichy, India. 
+ 
+My research interests include parameter estimation, control theory, optimization, and sequential decision making under uncertainity. 
