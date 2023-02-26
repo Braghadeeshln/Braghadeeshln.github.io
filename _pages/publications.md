@@ -17,6 +17,9 @@ nav_order: 1
     {% if pub.pdf %}
       <p><a href="{{ pub.pdf }}">PDF</a></p>
     {% endif %}
+    {% if pub.ppt %}
+      <a href="{{ pub.ppt }}" target="_blank" rel="noopener noreferrer">[slides]</a>
+    {% endif %}
   {% endfor %}
 {% endfor %}
 
