@@ -243,6 +243,12 @@ badges: # Display different badges for your pulications
   altmetric_badge: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
   dimensions_badge: true # Dimensions badge (https://badge.dimensions.ai/)
 
+sort_by: year, month
+order: descending, descending
+type_order: [unpublished, article, inbook, conference, incollections, inproceedings, proceedings, book, misc, techreport]
+type_names:
+  misc: Preprints
+
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
 

@@ -1,25 +1,10 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
-years: [2022, 2021]
+title: publications
 nav: true
-nav_order: 1
 ---
-<!-- _pages/publications.md -->
+
 <div class="publications">
-
-{%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-  {% for pub in bibdata.entries %}
-    {% if pub.pdf %}
-      <p><a href="{{ pub.pdf }}">PDF</a></p>
-    {% endif %}
-    {% if pub.slides %}
-      <a href="{{ pub.slides }}" target="_blank" rel="noopener noreferrer">[slides]</a>
-    {% endif %}
-  {% endfor %}
-{% endfor %}
-
+ {% bibliography --template bib --group_by type,year --group_order ascending,descending %}
 </div>
