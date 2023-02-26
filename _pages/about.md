@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Doctoral student at <a href='#'>Decision and Control Sytems, KTH</a>.
+subtitle: Doctoral student at <a href='https://www.kth.se/is/dcs/division-of-decision-and-control-systems-1.788078'>Decision and Control Sytems, KTH</a>.
 
 profile:
   align: right
