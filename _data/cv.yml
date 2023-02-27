@@ -12,7 +12,7 @@
   type: time_table
   contents:
     - title: PhD
-      institution: KTH Royal Institute of Technology
+      institution: KTH Royal Institute of Technology, Stockholm, Sweden
       year: August 2021-
       description:
         - Primary focus is on data-driven parameter estimation.
