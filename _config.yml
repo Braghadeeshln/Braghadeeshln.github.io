@@ -239,6 +239,7 @@ scholar:
 
   query: "@*"
 
+
 badges: # Display different badges for your pulications
   altmetric_badge: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
   dimensions_badge: true # Dimensions badge (https://badge.dimensions.ai/)
@@ -248,6 +249,9 @@ order: descending, descending
 type_order: [article, inbook, conference, incollections, inproceedings, proceedings, book, misc, techreport, unpublished]
 type_names: {unpublished: Preprints}
 type_aliases: {unpublished: Preprints}
+
+
+
 
 
 # Filter out certain bibtex entry keywords used internally from the bib output
