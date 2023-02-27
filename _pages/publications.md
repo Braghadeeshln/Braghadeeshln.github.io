@@ -6,5 +6,5 @@ nav: true
 ---
 
 <div class="publications">
- {% bibliography --template bib --group_by type,year --group_order ascending,descending %}
+ {% bibliography -f papers --group_by type,year --group_order descending,descending %}
 </div>

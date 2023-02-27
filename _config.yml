@@ -245,9 +245,9 @@ badges: # Display different badges for your pulications
 
 sort_by: year, month
 order: descending, descending
-type_order: [unpublished, article, inbook, conference, incollections, inproceedings, proceedings, book, misc, techreport]
-type_names: { unpublished: Preprints}
-type_aliases: { unpublished: Preprints}
+type_order: [article, inbook, conference, incollections, inproceedings, proceedings, book, misc, techreport, unpublished]
+type_names: {unpublished: Preprints}
+type_aliases: {unpublished: Preprints}
 
 
 # Filter out certain bibtex entry keywords used internally from the bib output
