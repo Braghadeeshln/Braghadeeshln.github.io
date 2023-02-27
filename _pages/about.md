@@ -23,3 +23,14 @@ I am Braghadeesh Lakshminarayanan, a doctoral student at the division of Decisio
 I graduated with a masters degree (M. Tech) in Communication and Networks (CN) on July 2020, from the Indian Institute of Science(IISc), Bangalore, India, where I was advised by [Prof. Aditya Gopalan](https://ece.iisc.ac.in/~aditya/index.html). Prior to joining IISc, I worked as a VLSI Engineer at Wipro Technologies, Bangalore, India from 2016-2017. I obtained my bachelors degree (B. Tech) in Electronics and Communication Engineering in the year 2016, from the National Institute of Technology, Trichy, India. 
  
 My research interests include parameter estimation, control theory, optimization, and sequential decision making under uncertainity. 
+
+
+How to pronounce my name?
+
+Here is an "english" way of pronouncing my name:
+Brag + had  + eesh  (First name)       Luck + she + me + nah + raw + yeah + none (Last name)
+
+
+What does my name mean? 
+
+First name is one of the names of lord Shiva,  the main deity of [Brihadishvara temple](https://en.wikipedia.org/wiki/Brihadisvara_Temple,_Thanjavur). My last name is my father's first name, which is one of the names of lord Vishnu [Lakshmi Narayanan](https://en.wikipedia.org/wiki/Lakshmi_Narayana).
