@@ -51,17 +51,9 @@
       description:
         - Worked as VLSI Engineer.
         - Worked on 5G project that involved verification of CPU subsystem block, specifically functional coverage of CPU. The goal of the functional coverage is to check whether all corner test cases such as read/write operation on CPU memory are successful.
-	- Tools used: DVE, VCS
-
-     
-- title: Software Skills
-  type: list
-  contents:
-    - "</u> C++, MATLAB, Python." 
+        - Tools used: DVE, VCS.
 
 - title: Other Interests
   type: list
   contents:
     - "<u>Hobbies:</u> Classical music (vocal), Jogging."
-
-
