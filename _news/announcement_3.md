@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-07-15
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+The paper "A Statistical Decision-Theoretical Perspective on the Two-Stage Approach to Parameter Estimation" that I co-authored with Cristian Rojas, was accepted for publication at [The IEEE 61st Conference on Decision and Control (CDC)](https://cdc2022.ieeecss.org/) in Cancún, Mexico, 2022.
+ 

@@ -14,7 +14,7 @@ profile:
     <p>KTH Royal Institute of Technology</p>
     <p>100 44 Stockholm, Sweden<p>
 
-
+news: true
 social: true  # includes social icons at the bottom of the page
 ---
 
