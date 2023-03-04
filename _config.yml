@@ -41,7 +41,7 @@ repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-s
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -231,11 +231,11 @@ scholar:
   # preprocessing may conflict with MathJAX if the latter is enabled.
   # See https://github.com/alshedivat/al-folio/issues/357.	
   
-  sort_by: date
-  order: ascending, ascending
+  sort_by: year, month
+  order: descending, descending
   type_order: [unpublished, article, inbook, conference, incollections, inproceedings, proceedings, book, misc, techreport]
-  type_names: {unpublished: Pre-Prints / In Preparation}
-
+  type_names: {unpublished: Pre-Prints}
+  
   bibtex_filters: [latex, smallcaps, superscript]
   
   replace_strings: true
@@ -246,6 +246,8 @@ scholar:
   details_link: Details
 
   query: "@*"
+  
+
 
 
 badges: # Display different badges for your pulications
