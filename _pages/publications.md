@@ -5,6 +5,7 @@ title: Publications
 nav: true
 ---
 
+
 <div class="publications">
-  {% bibliography -f papers --group_by type,year --group_order ascending,descending %}
+ {% bibliography -f papers --group_by type %}
 </div>

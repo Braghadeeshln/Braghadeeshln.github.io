@@ -73,7 +73,7 @@ twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: braghadeesh-lakshminarayanan-002b73ba/
 telegram_username: # your Telegram user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: #8erG-XQAAAAJ&hl
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
@@ -216,20 +216,28 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Lakshminarayanan]
+  first_name: [Braghadeesh]
 
   style: apa
   locale: en
 
   source: /_bibliography/
   bibliography: papers.bib
+
   bibliography_template: bib
+  
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
-  # See https://github.com/alshedivat/al-folio/issues/357.
-  bibtex_filters: [latex, smallcaps, superscript]
+  # See https://github.com/alshedivat/al-folio/issues/357.	
+  
+  sort_by: date
+  order: ascending, ascending
+  type_order: [unpublished, article, inbook, conference, incollections, inproceedings, proceedings, book, misc, techreport]
+  type_names: {unpublished: Pre-Prints / In Preparation}
 
+  bibtex_filters: [latex, smallcaps, superscript]
+  
   replace_strings: true
   join_strings: true
 
@@ -244,14 +252,8 @@ badges: # Display different badges for your pulications
   altmetric_badge: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
   dimensions_badge: true # Dimensions badge (https://badge.dimensions.ai/)
 
-sort_by: year, month
-order: descending, descending
-type_order: [article, inbook, conference, incollections, inproceedings, proceedings, book, misc, techreport, unpublished]
-type_names: {unpublished: Preprints}
-type_aliases: {unpublished: Preprints}
 
-
-
+  
 
 
 # Filter out certain bibtex entry keywords used internally from the bib output
