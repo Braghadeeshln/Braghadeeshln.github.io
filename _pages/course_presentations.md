@@ -12,7 +12,7 @@ nav_order: 4
 <p align="justify">This project is a part of the coursework on  Reinforcement Learning at IISc, Bangalore. This is a team project that had two members including me. We tried understanding the work of Timothy et al. on Adaptive Lambda Least Squares TD Learning, a technical report at <a href="https://tinyurl.com/ybz6fhk9" target="_blank">Arxiv</a>. 
 We also implemented the novel algorithm of this paper, which chooses the lambda parameter adaptively and balances Bias-Variance trade off in TD. The presentation on the same is attached for reference. We also gave an overall picture of TD learning in the presentation.</p>
    
-[Slides](/assets/pdf/Braghadeesh_Sethupathu_ALLSTD_Handout.pdf).
+[Slides](/assets/pdf/Braghadeesh_Sethupathy_ALLSTD_Handout.pdf).
  
 <p align="right">
     <h3 style="text-indent: -1em;">2. Semi Definite Programming Method for Integer Convex Quadratic Minimization</h3>
