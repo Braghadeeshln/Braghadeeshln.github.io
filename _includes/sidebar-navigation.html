@@ -1,0 +1,14 @@
+{% assign url = page.url|remove:'index.html' %}
+
+</div>
+<div class="offcanvas-sidebar">
+    <nav class="menu">
+        <ul>
+            {% for link in site.data.navigation %}
+                <li {% if url == link.url %}class="active"{% endif %}>
+                    <a href="{{site.baseurl}}{{link.url}}" title="{{link.title}}">{{link.text}}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </nav>
+</div>
