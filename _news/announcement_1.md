@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-03-03 
+date: 2023-04-25
 inline: true
 ---
 
-The paper "A Unified Approach to Differentially Private Bayes Point Estimation" that I co-authored with Cristian R. Rojas, was accepted for presentation at [The 22nd World Congress of the International Federation of Automatic Control](https://www.ifac2023.org/) in Yokohama, Japan, 2023.
+I attended the [Nonlinear Benchmark Workshop and Mini Course](https://www.nonlinearbenchmark.org/workshop) in TU/e, Netherlands, 2023.

@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2022-09-20
+date: 2022-07-15
 inline: true
 ---
 
-I attended the [European Research Network on System Identification (ERNSI)](https://www.esat.kuleuven.be/stadius/ERNSI2022/) workshop in KU Leuven, Belgium, 2022.
+The paper "A Statistical Decision-Theoretical Perspective on the Two-Stage Approach to Parameter Estimation" that I co-authored with Cristian Rojas, was accepted for publication at [The IEEE 61st Conference on Decision and Control (CDC)](https://cdc2022.ieeecss.org/) in Cancún, Mexico, 2022.
+ 

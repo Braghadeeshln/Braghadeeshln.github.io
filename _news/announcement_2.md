@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-12-08
+date: 2023-03-03 
 inline: true
 ---
 
-I presented the paper "A Statistical Decision-Theoretical Perspective on the Two-Stage Approach to Parameter Estimation" at [The IEEE 61st Conference on Decision and Control (CDC)](https://cdc2022.ieeecss.org/) in Cancún, Mexico, 2022.
+The paper "A Unified Approach to Differentially Private Bayes Point Estimation" that I co-authored with Cristian R. Rojas, was accepted for presentation at [The 22nd World Congress of the International Federation of Automatic Control](https://www.ifac2023.org/) in Yokohama, Japan, 2023.
