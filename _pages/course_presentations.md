@@ -45,7 +45,7 @@ We also implemented the novel algorithm of this paper, which chooses the lambda 
     <h3 style="text-indent: -1em;">5. Linear Estimation in Krein Spaces</h3>
 </p>
 
-In this presentation,  I discussed the application of Krein-space projection in H_{\infty} problem.  The presentation discussed the results in the following two papers:
+In this presentation, I discussed the application of Krein-space projection in H_{\infty} problem.  The presentation discussed the results in the following two papers:
 <ul>
 	<li><p align="justify">“Linear estimation in Krein spaces. I. Theory” Hassibi, B.; Sayed, A.H.; Kailath, T. Automatic Control, IEEE Transactions on Volume: 41 1, Jan. 1996, Page(s): 18 -33</p></li>
 	<li><p align="justify">“Linear estimation in Krein spaces. II. Applications” Hassibi, B.; Sayed, A.H.; Kailath, T. Automatic Control, IEEE Transactions on Volume: 41 1, Jan. 1996, Page(s): 34 -49</p></li>
@@ -56,3 +56,11 @@ This presentation was a part of the PhD course "Mathematical Methods in Signals,
 [Slides](/assets/pdf/Presentation_Krein_Spaces.pdf).
 
 
+
+<p align="right">
+    <h3 style="text-indent: -1em;">6. Dual Control</h3>
+</p>
+
+In this presentation, I and [Nana](https://www.kth.se/profile/nanaw) discussed Feldbaum's Dual Control paper (one of the [25 seminal papers in control](https://ieeexplore.ieee.org/book/5265919)), as a part of [DCS Control Reading Seminar](https://sites.google.com/view/dcscontrolreading/home) at [DCS KTH](https://www.kth.se/is/dcs/division-of-decision-and-control-systems-1.788078):
+
+[Slides](/assets/pdf/Dual Control Presentation_BL_NW.pdf).
