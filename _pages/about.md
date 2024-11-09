@@ -18,19 +18,18 @@ news: true
 social: true  # includes social icons at the bottom of the page
 ---
 
-<div style="position: fixed; top: 80px; right: 5px; width: 250px; text-align: right; font-size: 0.8em; color: #555; font-family: 'Georgia', serif;">
-  <p>
-    नीतिज्ञा नियतिज्ञा वेदज्ञा अपि भवन्ति शास्त्रज्ञाः ।<br>
-    ब्रह्मज्ञा अपि लभ्या स्वाज्ञानज्ञानिनो विरलाः ॥
+<div style="text-align: center; padding: 10px;">
+  <p style="font-size: 1.1em; font-family: 'Georgia', serif; font-style: italic; color: #888888; margin: 5px;">
+    “नीतिज्ञा नियतिज्ञा वेदज्ञा अपि भवन्ति शास्त्रज्ञाः ।<br>
+    ब्रह्मज्ञा अपि लभ्या स्वाज्ञानज्ञानिनो विरलाः ॥”
   </p>
-  <p style="font-style: italic;">
-  "People who know morality, know the inner order of conduct, know the Vedas (knowledge), know the Scriptures or know the Supreme Spirit Himself are plentiful; but rare are those who know about their own ignorance."
+  <p style="font-size: 0.9em; font-style: italic; color: #666666; margin: 5px;">
+    "People who know morality, the inner order of conduct, the Vedas (knowledge), the Scriptures, or even the Supreme Spirit are plentiful; but rare are those who know their own ignorance."
   </p>
-  <p style="font-size: 0.7em; color: #777;">
-    — *Vairagya Shataka*
+  <p style="font-size: 0.8em; color: #555555; margin: 5px;">
+    — *Vairagya Shataka* by Bhartṛhari
   </p>
 </div>
-
 
 
 I am Braghadeesh Lakshminarayanan, a doctoral student at the division of Decision and Control Systems (DCS), KTH Royal Institute of Technology, Stockholm, Sweden. I began my doctoral studies on August 2021 under the supervision of [Prof. Cristian Rojas](https://people.kth.se/~crro/). 
@@ -49,3 +48,20 @@ Brag + had  + eesh  (First name)       Luck + she + me + nah + raw + yeah + none
 What does my name mean? 
 
 First name is one of the names of lord Shiva,  the main deity of [Brihadishvara temple](https://en.wikipedia.org/wiki/Brihadisvara_Temple,_Thanjavur). My last name is my father's first name, which is one of the names of lord Vishnu [Lakshmi Narayanan](https://en.wikipedia.org/wiki/Lakshmi_Narayana).
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const fixedContainer = document.getElementById("fixed-container");
+    if (fixedContainer) {
+      fixedContainer.style.position = "fixed";
+      fixedContainer.style.top = "100px";
+      fixedContainer.style.right = "5px";
+      fixedContainer.style.width = "250px";
+      fixedContainer.style.textAlign = "right";
+      fixedContainer.style.fontSize = "0.8em";
+      fixedContainer.style.color = "#555";
+      fixedContainer.style.fontFamily = "'Georgia', serif";
+      fixedContainer.style.zIndex = "9999";
+    }
+  });
+</script>

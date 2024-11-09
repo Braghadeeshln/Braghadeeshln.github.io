@@ -1,0 +1,102 @@
+---
+layout: default
+title: About
+subtitle: Doctoral student at <a href='https://www.kth.se/is/dcs/division-of-decision-and-control-systems-1.788078'>Decision and Control Systems, KTH</a>.
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+</head>
+
+<body>
+
+  <!-- Flex Container for Profile Image and Quote Section -->
+  <div class="profile-quote-container" style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 20px;">
+
+    <!-- Profile Image Section -->
+    <div class="profile">
+      {%- if page.profile.image %}
+        {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+
+        {% if page.profile.image_circular %}
+          {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+        {% else %}
+          {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+        {% endif %}
+
+        {% include figure.html 
+        path=profile_image_path 
+        class=profile_image_class
+        alt=page.profile.image -%}
+      {% endif -%}
+      {%- if page.profile.address %}
+      <div class="address">
+        {{ page.profile.address }}
+      </div>
+      {%- endif %}
+    </div>
+
+    <!-- Quote Section Next to Profile Image -->
+    <div style="flex: 1; padding: 10px; background-color: #f9f9f9;">
+      <p style="font-size: 1.2em; font-family: 'Georgia', serif; margin: 5px;">
+        नीतिज्ञा नियतिज्ञा वेदज्ञा अपि भवन्ति शास्त्रज्ञाः ।<br>
+        ब्रह्मज्ञा अपि लभ्या स्वाज्ञानज्ञानिनो विरलाः ॥
+      </p>
+      <p style="font-size: 0.9em; font-style: italic; color: #555; margin: 5px;">
+        "People who know morality, know the inner order of conduct, know the Vedas (sacred knowledge), know the Scriptures, or know the Supreme Spirit Himself are plentiful; but rare are those who know about their own ignorance."
+      </p>
+      <p style="font-size: 0.8em; color: #777; margin: 5px;">
+        — *Vairagya Shataka* by Bhartṛhari
+      </p>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        {% if site.title == "blank" -%}
+          <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
+        {%- else -%}
+          {{ site.title }}
+        {%- endif %}
+      </h1>
+      <p class="desc">{{ page.subtitle }}</p>
+    </header>
+
+    <article>
+      <div class="clearfix">
+        {{ content }}
+      </div>
+
+      <!-- News Section -->
+      {% if page.news -%}
+        <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+        {%- include news.html %}
+      {%- endif %}
+
+      <!-- Selected Publications Section -->
+      {% if page.selected_papers -%}
+        <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
+        {%- include selected_papers.html %}
+      {%- endif %}
+
+      <!-- Social Section -->
+      {% if page.social %}
+        <div class="social">
+          <div class="contact-icons">
+            {% include social.html %}
+          </div>
+          <div class="contact-note">
+            {{ site.contact_note }}
+          </div>
+        </div>
+      {% endif %}
+    </article>
+  </div>
+
+</body>
+</html>

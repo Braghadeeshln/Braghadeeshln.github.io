@@ -724,3 +724,15 @@ progress {
      display: block;
      height: inherit;
  }
+ 
+ #fixed-container {
+  position: fixed !important;
+  top: 100px !important;
+  right: 5px !important;
+  width: 250px;
+  text-align: right;
+  font-size: 0.8em;
+  color: #555;
+  font-family: 'Georgia', serif;
+  z-index: 9999 !important;
+}

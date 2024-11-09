@@ -2,69 +2,94 @@
 layout: default
 ---
 
-<!-- about.html -->
-      <div class="post">
-        <header class="post-header">
-          <h1 class="post-title">
-           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
-          </h1>
-          <p class="desc">{{ page.subtitle }}</p>
-        </header>
 
-        <article>
-          {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
-              {% if page.profile.image_circular %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-              {% else %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-              {% endif %}
+<!-- About Page Content -->
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {% if site.title == "blank" -%}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
+      {%- else -%}
+        {{ site.title }}
+      {%- endif %}
+    </h1>
+    <p class="desc">{{ page.subtitle }}</p>
+  </header>
 
-              {% include figure.html 
-              path=profile_image_path 
-              class=profile_image_class
-              alt=page.profile.image -%}
-            {% endif -%}
-            {%- if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
-            </div>
-            {%- endif %}
-          </div>
-          {%- endif %}
+  <article>
+    {% if page.profile -%}
+    <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+      {%- if page.profile.image %}
+        {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
-          <div class="clearfix">
-            {{ content }}
-          </div>
+        {% if page.profile.image_circular %}
+          {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+        {% else %}
+          {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+        {% endif %}
 
-          <!-- News -->
-          {% if page.news -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
-            {%- include news.html %}
-          {%- endif %}
+        {% include figure.html 
+        path=profile_image_path 
+        class=profile_image_class
+        alt=page.profile.image -%}
+      {% endif -%}
+      {%- if page.profile.address %}
+      <div class="address">
+        {{ page.profile.address }}
+      </div>
+      {%- endif %}
+    </div>
+    {%- endif %}
 
-          <!-- Selected papers -->
-          {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
-            {%- include selected_papers.html %}
-          {%- endif %}
+    <div class="clearfix">
+      {{ content }}
+    </div>
 
-          <!-- Social -->
-          {%- if page.social %}
-            <div class="social">
-              <div class="contact-icons">
-                {% include social.html %}
-              </div>
+    <!-- News -->
+    {% if page.news -%}
+      <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+      {%- include news.html %}
+    {%- endif %}
 
-              <div class="contact-note">
-                {{ site.contact_note }}
-              </div>
-              
-            </div>
-          {%- endif %}
-        </article>
+    <!-- Selected papers -->
+    {% if page.selected_papers -%}
+      <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
+      {%- include selected_papers.html %}
+    {%- endif %}
 
+    <!-- Social -->
+    {%- if page.social %}
+      <div class="social">
+        <div class="contact-icons">
+          {% include social.html %}
+        </div>
+
+        <div class="contact-note">
+          {{ site.contact_note }}
+        </div>
+      </div>
+    {%- endif %}
+  </article>
 </div>
+
+<!-- JavaScript to Enforce Fixed Position Continuously -->
+<script>
+  function enforceFixedPosition() {
+    const fixedQuote = document.getElementById("fixed-quote");
+    if (fixedQuote) {
+      fixedQuote.style.position = "fixed";
+      fixedQuote.style.top = "120px";
+      fixedQuote.style.left = "10px";
+      fixedQuote.style.width = "250px";
+      fixedQuote.style.textAlign = "left";
+      fixedQuote.style.fontSize = "0.8em";
+      fixedQuote.style.color = "#555";
+      fixedQuote.style.fontFamily = "'Georgia', serif";
+      fixedQuote.style.zIndex = "99999";
+    }
+    requestAnimationFrame(enforceFixedPosition);
+  }
+
+  document.addEventListener("DOMContentLoaded", enforceFixedPosition);
+</script>
