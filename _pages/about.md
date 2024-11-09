@@ -18,6 +18,21 @@ news: true
 social: true  # includes social icons at the bottom of the page
 ---
 
+<div style="position: fixed; top: 80px; right: 5px; width: 250px; text-align: right; font-size: 0.8em; color: #555; font-family: 'Georgia', serif;">
+  <p>
+    नीतिज्ञा नियतिज्ञा वेदज्ञा अपि भवन्ति शास्त्रज्ञाः ।<br>
+    ब्रह्मज्ञा अपि लभ्या स्वाज्ञानज्ञानिनो विरलाः ॥
+  </p>
+  <p style="font-style: italic;">
+  "People who know morality, know the inner order of conduct, know the Vedas (knowledge), know the Scriptures or know the Supreme Spirit Himself are plentiful; but rare are those who know about their own ignorance."
+  </p>
+  <p style="font-size: 0.7em; color: #777;">
+    — *Vairagya Shataka*
+  </p>
+</div>
+
+
+
 I am Braghadeesh Lakshminarayanan, a doctoral student at the division of Decision and Control Systems (DCS), KTH Royal Institute of Technology, Stockholm, Sweden. I began my doctoral studies on August 2021 under the supervision of [Prof. Cristian Rojas](https://people.kth.se/~crro/). 
 
 I graduated with a masters degree (M. Tech) in Communication and Networks (CN) on July 2020, from the Indian Institute of Science(IISc), Bangalore, India, where I was advised by [Prof. Aditya Gopalan](https://ece.iisc.ac.in/~aditya/index.html). Prior to joining IISc, I worked as a VLSI Engineer at Wipro Technologies, Bangalore, India from 2016-2017. I obtained my bachelors degree (B. Tech) in Electronics and Communication Engineering in the year 2016, from the National Institute of Technology, Trichy, India. 
