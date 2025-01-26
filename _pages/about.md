@@ -33,7 +33,6 @@ social: true  # includes social icons at the bottom of the page
 
 
 
-Here is the restructured version with corrected grammar while keeping the parentheses for URLs unchanged:
 
 I am Braghadeesh Lakshminarayanan, a doctoral student in the Division of Decision and Control Systems (DCS) at KTH Royal Institute of Technology, Stockholm, Sweden. I began my doctoral studies in August 2021 under the supervision of [Prof. Cristian Rojas](https://people.kth.se/~crro/). 
 
