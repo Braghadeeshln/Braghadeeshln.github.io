@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://Braghadeeshln.github.io/sitemap.xml
+User-agent: * Disallow: Sitemap: https://braghadeeshln.github.io/sitemap.xml
