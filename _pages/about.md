@@ -1,5 +1,4 @@
 ---
-
 layout: about
 title: About
 permalink: /
@@ -17,7 +16,7 @@ social: true
 
 I am Braghadeesh Lakshminarayanan, a postdoctoral researcher at [Aalto University](https://www.aalto.fi/en), affiliated with the [ELLIS Institute Finland](https://www.ellisinstitute.fi/). I am supervised by [Prof. Dominik Baumann](https://baumanndominik.github.io/) and [Prof. Chen Qi](https://livreq.github.io/).
 
-I completed my PhD in Electrical Engineering at [KTH Royal Institute of Technology](https://www.kth.se/en), Sweden. I defended my doctoral thesis on May 8, 2026, under the supervision of [Prof. Cristian R. Rojas](https://cristianrojas.github.io/).
+I completed my PhD in Electrical Engineering, specializing in Decision and Control Systems, at [KTH Royal Institute of Technology](https://www.kth.se/en), Sweden. I defended my doctoral thesis on May 8, 2026, under the supervision of [Prof. Cristian R. Rojas](https://cristianrojas.github.io/).
 
 I received my Master's degree, M.Tech in Communication and Networks, from the [Indian Institute of Science](https://iisc.ac.in/), Bangalore, India, in July 2020, where I was advised by [Prof. Aditya Gopalan](https://ece.iisc.ac.in/~aditya/index.html). Before joining IISc, I worked as a VLSI Engineer at Wipro Technologies, Bangalore, India, from 2016 to 2017. I received my Bachelor's degree, B.Tech in Electronics and Communication Engineering, from the [National Institute of Technology Tiruchirappalli](https://www.nitt.edu/), India, in 2016.
 
