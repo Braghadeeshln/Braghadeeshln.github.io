@@ -8,7 +8,6 @@ profile:
 align: right
 image: prof_pic.jpg
 image_circular: false
-more_info: > <p>Maarintie 8, Floor 4</p> <p>ELLIS Institute Finland</p> <p>Aalto University</p> <p>02150 Espoo, Finland</p>
 
 news: true
 social: true
