@@ -1,5 +1,4 @@
 ---
-
 layout: about
 title: About
 permalink: /
@@ -13,7 +12,7 @@ more_info: > <p>Maarintie 8, Floor 4</p> <p>ELLIS Institute Finland</p> <p>Aalto
 
 news: true
 social: true
-------------
+---
 
 I am Braghadeesh Lakshminarayanan, a postdoctoral researcher at [Aalto University](https://www.aalto.fi/en), affiliated with the [ELLIS Institute Finland](https://www.ellisinstitute.fi/). I am supervised by [Prof. Dominik Baumann](https://baumanndominik.github.io/) and [Prof. Chen Qi](https://livreq.github.io/).
 
