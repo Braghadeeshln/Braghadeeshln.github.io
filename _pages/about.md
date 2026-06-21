@@ -2,7 +2,7 @@
 
 layout: about
 title: About
-permalink: https://Braghadeeshln.github.io/
+permalink: https://braghadeeshln.github.io/
 subtitle: "Postdoctoral researcher at <a href='https://www.aalto.fi/en'>Aalto University</a>, affiliated with the <a href='https://www.ellisinstitute.fi/'>ELLIS Institute Finland</a>."
 
 profile:
