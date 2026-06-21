@@ -2,7 +2,7 @@
 
 layout: about
 title: About
-permalink: https://braghadeeshln.github.io/
+permalink: /
 subtitle: "Postdoctoral researcher at <a href='https://www.aalto.fi/en'>Aalto University</a>, affiliated with the <a href='https://www.ellisinstitute.fi/'>ELLIS Institute Finland</a>."
 
 profile:
@@ -17,7 +17,7 @@ social: true
 
 I am Braghadeesh Lakshminarayanan, a postdoctoral researcher at [Aalto University](https://www.aalto.fi/en), affiliated with the [ELLIS Institute Finland](https://www.ellisinstitute.fi/). I am supervised by [Prof. Dominik Baumann](https://baumanndominik.github.io/) and [Prof. Chen Qi](https://livreq.github.io/).
 
-I completed my PhD in Electrical Engineering, specializing in Decision and Control Systems, at [KTH Royal Institute of Technology](https://www.kth.se/en), Sweden. I defended my doctoral thesis on May 8, 2026, under the supervision of [Prof. Cristian R. Rojas](https://cristianrojas.github.io/).
+I completed my PhD in Electrical Engineering at [KTH Royal Institute of Technology](https://www.kth.se/en), Sweden. I defended my doctoral thesis on May 8, 2026, under the supervision of [Prof. Cristian R. Rojas](https://cristianrojas.github.io/).
 
 I received my Master's degree, M.Tech in Communication and Networks, from the [Indian Institute of Science](https://iisc.ac.in/), Bangalore, India, in July 2020, where I was advised by [Prof. Aditya Gopalan](https://ece.iisc.ac.in/~aditya/index.html). Before joining IISc, I worked as a VLSI Engineer at Wipro Technologies, Bangalore, India, from 2016 to 2017. I received my Bachelor's degree, B.Tech in Electronics and Communication Engineering, from the [National Institute of Technology Tiruchirappalli](https://www.nitt.edu/), India, in 2016.
 
@@ -25,32 +25,16 @@ My research interests include parameter estimation, control theory, machine lear
 
 Outside research, I enjoy jogging and Indian classical vocal music.
 
+## How to pronounce my name?
 
+Here is an English way of pronouncing my name:
 
-How to pronounce my name?
+**Brag + had + eesh**
+First name
 
-Here is an "English" way of pronouncing my name:
-Brag + had + eesh (First name)
-Luck + she + me + nah + raw + yeah + none (Last name)
+**Luck + she + me + nah + raw + yeah + none**
+Last name
 
+## What does my name mean?
 
-What does my name mean? 
-
-My first name is one of the names of Lord Shiva, the main deity of the [Brihadishvara temple](https://en.wikipedia.org/wiki/Brihadisvara_Temple,_Thanjavur). My last name is my father's first name, which is one of the names of Lord Vishnu, [Lakshmi Narayanan](https://en.wikipedia.org/wiki/Lakshmi_Narayana).
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const fixedContainer = document.getElementById("fixed-container");
-    if (fixedContainer) {
-      fixedContainer.style.position = "fixed";
-      fixedContainer.style.top = "100px";
-      fixedContainer.style.right = "5px";
-      fixedContainer.style.width = "250px";
-      fixedContainer.style.textAlign = "right";
-      fixedContainer.style.fontSize = "0.8em";
-      fixedContainer.style.color = "#555";
-      fixedContainer.style.fontFamily = "'Georgia', serif";
-      fixedContainer.style.zIndex = "9999";
-    }
-  });
-</script>
+My first name is one of the names of Lord Shiva, the main deity of the [Brihadishvara Temple](https://en.wikipedia.org/wiki/Brihadisvara_Temple,_Thanjavur). My last name is my father's first name, which is one of the names of Lord Vishnu, [Lakshmi Narayanan](https://en.wikipedia.org/wiki/Lakshmi_Narayana).
