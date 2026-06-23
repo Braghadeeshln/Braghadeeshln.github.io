@@ -7,7 +7,7 @@ subtitle: "Postdoctoral researcher at <a href='https://www.aalto.fi/en'>Aalto Un
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false
+  image_circular: true
   more_info: >
     <p>Maarintie 8, Floor 4</p>
     <p>ELLIS Institute Finland</p>
