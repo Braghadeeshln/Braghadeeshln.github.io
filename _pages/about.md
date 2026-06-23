@@ -6,9 +6,14 @@ permalink: /
 subtitle: "Postdoctoral researcher at <a href='https://www.aalto.fi/en'>Aalto University</a>, affiliated with the <a href='https://www.ellisinstitute.fi/'>ELLIS Institute Finland</a>."
 
 profile:
-align: right
-image_circular: false
-more_info: "<p>Maarintie 8, Floor 4</p><p>ELLIS Institute Finland</p><p>Aalto University</p><p>02150 Espoo, Finland</p>"
+  align: right
+  image: prof_pic.jpg
+  image_circular: false
+  more_info:> 
+    <p>Maarintie 8, Floor 4</p>
+    <p>ELLIS Institute Finland</p>
+    <p>Aalto University</p>
+    <p>02150 Espoo, Finland</p>
 
 news: true
 social: true
